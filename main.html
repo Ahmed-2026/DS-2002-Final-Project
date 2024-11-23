@@ -7935,32 +7935,6 @@ graph TD
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<div class="jp-Mermaid"><pre class="mermaid">
-graph TD
-    A[Start: Read CSV Files] --&gt; B[Load file1: Cost_of_Living_Index_by_Country_2024.csv]
-    A --&gt; C[Load file2: world-data-2023.csv]
-    B --&gt; D[Inspect file1: Head and Columns]
-    C --&gt; E[Inspect file2: Head and Columns]
-    D --&gt; F[Merge DataFrames on 'Country' Column]
-    E --&gt; F
-    F --&gt; G[Inspect Merged DataFrame: Shape and Head]
-    G --&gt; H[Save Merged DataFrame to CSV: merged_dataset.csv]
-    H --&gt; I[Install pymongo and certifi]
-    I --&gt; J[Connect to MongoDB]
-    J --&gt; K[Load Data from merged_dataset.csv to MongoDB]
-    K --&gt; L[Insert Data into Collection: Cost_of_living]
-    L --&gt; M[End]
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="Data-Analysis">Data Analysis<a class="anchor-link" href="#Data-Analysis">¶</a></h2>
 </div>
 </div>
